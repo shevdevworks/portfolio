@@ -24,6 +24,7 @@ Personal developer portfolio — a single-page site built from scratch with plai
 - **RU / EN toggle** — instant language switch, persisted in `localStorage`, auto-detected from the browser on first visit.
 - **Brand-consistent design system** — a fixed 4-color palette, defined type scale, and a single accent reserved for glow effects only.
 - **Interactive 3D cube** — pure CSS, auto-rotating, respects `prefers-reduced-motion`.
+- **Projects carousel** — native CSS scroll-snap track: three cards per view on desktop, two on tablet, one on phones, driven by arrow buttons or a plain touch swipe.
 - **Scroll-reveal animations** via `IntersectionObserver` — no scroll-jank.
 - **One-click email copy** with inline confirmation feedback.
 - **Fully responsive** — dedicated mobile nav, fluid type via `clamp()`, tested down to small phones.
@@ -65,10 +66,11 @@ A single purple glow (`#635bff`) is the one deliberate exception — reserved ex
 
 | Project | Description | Live | Source |
 |---|---|---|---|
+| **Emquad** | Typographic poster generator — five layout modes computed from the phrase, posters persisted to Postgres | [Demo](https://emquad.vercel.app/) | [Code](https://github.com/shevdevworks/emquad) |
+| **Stayline** | Studio and coworking booking service — custom date-range picker, multi-step booking form, TypeScript strict mode | [Demo](https://shevdevworks.github.io/stayline/) | [Code](https://github.com/shevdevworks/stayline) |
+| **CyberGear** | Custom peripherals e-commerce store — cart, filtering, state management | [Demo](https://shevdevworks.github.io/cyber-gear/) | [Code](https://github.com/shevdevworks/cyber-gear) |
 | **ApexSaaS** | Interactive automation platform — GSAP animations, reusable UI components | [Demo](https://shevdevworks.github.io/apex-saas/) | [Code](https://github.com/shevdevworks/apex-saas) |
 | **Trendify** | Marketplace analytics dashboard — interactive charts, data filtering | [Demo](https://shevdevworks.github.io/trendify/) | [Code](https://github.com/shevdevworks/trendify) |
-| **CyberGear** | Custom peripherals e-commerce store — cart, filtering, state management | [Demo](https://shevdevworks.github.io/cyber-gear/) | [Code](https://github.com/shevdevworks/cyber-gear) |
-| **Stayline** | Studio and coworking booking service — custom date-range picker, multi-step booking form, TypeScript strict mode | [Demo](https://shevdevworks.github.io/stayline/) | [Code](https://github.com/shevdevworks/stayline) |
 
 ## Getting Started
 
